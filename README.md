@@ -9,15 +9,15 @@
   <img src="https://et12.edu.ar/imgs/et12.svg">
 </p>
 
-## Computación 2023
+## Computación 2026
 
-**Asignatura**: <!-- REEMPLAZA este comentario por el nombre de la asignatura -->
+**Programacion Sobre Redes** <!-- REEMPLAZA este comentario por el nombre de la asignatura -->
 
-**Nombre TP**: <!-- REEMPLAZA este comentario por el nombre del TP -->
+**TP Bolillero** <!-- REEMPLAZA este comentario por el nombre del TP -->
 
-**Apellido y nombre Alumno**: <!-- REEMPLAZA este comentario por tu apellido y nombre -->
+**Misael Piuca** <!-- REEMPLAZA este comentario por tu apellido y nombre -->
 
-**Curso**: <!-- REEMPLAZA este comentario por tu curso -->
+**6°8** <!-- REEMPLAZA este comentario por tu curso -->
 
 # Título del Proyecto
 
