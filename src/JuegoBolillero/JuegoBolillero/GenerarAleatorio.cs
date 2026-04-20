@@ -2,11 +2,10 @@
 
 internal class GenerarAleatorio : IBolillero
 {
+    private readonly Random _random = new Random();
+
     int IBolillero.GenerarAleatorio(int mini, int maxi)
     {
-        Random r = new Random();
-        var num = r.Next(mini, maxi);
-
-        return num;
+        return _random.Next(mini, maxi);
     }
 }

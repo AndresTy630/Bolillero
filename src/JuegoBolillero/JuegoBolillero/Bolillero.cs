@@ -20,7 +20,7 @@ internal class Bolillero
     {
         var numero = _generarAleatorio.GenerarAleatorio(0, _bolillasAdentro.Count);
         var bolilla = _bolillasAdentro[numero];
-        _bolillasAdentro.RemoveAt(bolilla);
+        _bolillasAdentro.RemoveAt(numero);
         _bolillasFuera.Add(bolilla);
 
         return bolilla;
@@ -37,11 +37,11 @@ internal class Bolillero
         if (_bolillasAdentro.Count == 0)
             return true;
 
-        foreach(var bolillas in jugada)
+        foreach (var bolillas in jugada)
         {
             int sacada = SacarBolilla();
 
-            if(sacada != bolillas)
+            if (sacada != bolillas)
             {
                 Revocar();
                 return false;
@@ -56,12 +56,10 @@ internal class Bolillero
     {
         int acierto = 0;
 
-        for(int i = 0; i < cantidadVeces; i++)
+        for (int i = 0; i < cantidadVeces; i++)
         {
-            if(Jugar(jugada))
-            {
-                return acierto++;
-            }
+            if (Jugar(jugada))
+                acierto++;
         }
 
         return acierto;
