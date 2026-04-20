@@ -8,7 +8,7 @@ public class BolilleroTest
 
     public BolilleroTest()
     {
-        var bolillas = Enumerable.Range(0, 10).ToList(); // [0..9]
+        var bolillas = Enumerable.Range(0, 10).ToList();
         _bolillero = new Bolillero(bolillas, new Primero());
     }
 
@@ -19,7 +19,7 @@ public class BolilleroTest
 
         Assert.Equal(0, bolilla);
         Assert.Equal(9, _bolillero.BolillasAdentro.Count);
-        Assert.Equal(1, _bolillero.BolillasFuera.Count);
+        Assert.Single(_bolillero.BolillasFuera);
     }
 
     [Fact]
@@ -29,7 +29,7 @@ public class BolilleroTest
         _bolillero.Revocar();
 
         Assert.Equal(10, _bolillero.BolillasAdentro.Count);
-        Assert.Equal(0, _bolillero.BolillasFuera.Count);
+        Assert.Empty(_bolillero.BolillasFuera);
     }
 
     [Fact]
