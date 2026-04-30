@@ -15,13 +15,13 @@
 
 **TP Bolillero** <!-- REEMPLAZA este comentario por el nombre del TP -->
 
-**Misael Piuca** <!-- REEMPLAZA este comentario por tu apellido y nombre -->
+**Misael Piuca Y Andrés Torrico** <!-- REEMPLAZA este comentario por tu apellido y nombre -->
 
 **6°8** <!-- REEMPLAZA este comentario por tu curso -->
 
 # Título del Proyecto
 
-_Acá va un párrafo que describa lo que es el proyecto._
+Este proyecto consiste en crear un bolillero virtual que contiene bolillas numeradas y permite sacarlas una por una para ver si salen en el orden exacto de nuestra jugada. El sistema permite "ganar" si acertamos la secuencia, repetir el juego muchas veces para contar los éxitos y volver a meter las bolillas usadas para empezar de nuevo. Además, se realizan pruebas unitarias para así asegurar que el programa funcione correctamente.
 
 ## Comenzando 🚀
 
@@ -33,7 +33,7 @@ git clone https://github.com/ET12DE1Computacion/simpleTemplateCSharp
 
 ### Pre-requisitos 📋
 
-- .NET 6.0.5 (SDK .NET 6.0.300) - [Descargar](https://dotnet.microsoft.com/download/dotnet/6.0)
+- .NET 8.0.26 (SDK .NET 8.0.420) - [Descargar](https://dotnet.microsoft.com/es-es/download/dotnet/8.0)
 
 ## Despliegue 📦
 
@@ -43,7 +43,7 @@ _Agrega notas adicionales sobre que cosas se debe instalar, configurar y como ha
 
 _Menciona las herramientas y versiones que utilizaste para crear tu proyecto_
 
-* [Visual Studio Code](https://code.visualstudio.com/#alt-downloads) - Editor de código.
+* [Visual Studio 2022]([https://code.visualstudio.com/#alt-downloads](https://visualstudio.microsoft.com/es/downloads/)) - Editor de código.
 
 ## Versionado 📌
 
@@ -53,8 +53,8 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Max Power** - *Desarrollo* - [Maxpower](https://github.com/maxpower)
-* **Cosme Fulanito** - *Documentación* - [Cosmefulanito](#Cosmefulanito)
+* **Misael Piuca** - *Desarrollo* - [Maxpower](https://github.com/maxpower)
+* **Andrés Torrico** - *Documentación* - [Cosmefulanito](#Cosmefulanito)
 
 ## Licencia 📄
 
