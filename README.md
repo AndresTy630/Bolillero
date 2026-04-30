@@ -53,8 +53,8 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Misael Piuca** - *Desarrollo* - [Maxpower](https://github.com/maxpower)
-* **Andrés Torrico** - *Documentación* - [Cosmefulanito](#Cosmefulanito)
+* **Misael Piuca** - *Desarrollo* - [Misael-jk](https://github.com/Misael-jk)
+* **Andrés Torrico** - *Desarrollo* - [AndresTy630](https://github.com/AndresTy630)
 
 ## Licencia 📄
 
