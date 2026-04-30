@@ -43,7 +43,7 @@ _Agrega notas adicionales sobre que cosas se debe instalar, configurar y como ha
 
 _Menciona las herramientas y versiones que utilizaste para crear tu proyecto_
 
-* [Visual Studio 2022]([https://code.visualstudio.com/#alt-downloads](https://visualstudio.microsoft.com/es/downloads/)) - Editor de código.
+* [Visual Studio 2022](https://visualstudio.microsoft.com/es/downloads/) - Editor de código.
 
 ## Versionado 📌
 
