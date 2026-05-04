@@ -8,5 +8,6 @@ namespace JuegoBolillero
 {
     internal interface IClonable
     {
+        object Clonar();
     }
 }

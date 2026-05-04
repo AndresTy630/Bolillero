@@ -8,8 +8,7 @@ public class BolilleroTest
 
     public BolilleroTest()
     {
-        var bolillas = Enumerable.Range(0, 10).ToList();
-        _bolillero = new Bolillero(bolillas, new Primero());
+        _bolillero = new Bolillero(10, new Primero());
     }
 
     [Fact]

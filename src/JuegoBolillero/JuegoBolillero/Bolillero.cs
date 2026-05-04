@@ -1,6 +1,6 @@
 ﻿namespace JuegoBolillero;
 
-internal class Bolillero
+internal class Bolillero : IClonable
 {
     private List<int> _bolillasAdentro = new();
     public IReadOnlyCollection<int> BolillasAdentro => _bolillasAdentro.AsReadOnly();
@@ -10,9 +10,9 @@ internal class Bolillero
 
     private IBolillero _generarAleatorio;
 
-    public Bolillero(List<int> Bolillas, IBolillero generarAleatorio)
+    public Bolillero(int Cantidad, IBolillero generarAleatorio)
     {
-        _bolillasAdentro = Bolillas;
+        _bolillasAdentro = Enumerable.Range(0, Cantidad).ToList();
         _generarAleatorio = generarAleatorio;
     }
 
@@ -63,5 +63,15 @@ internal class Bolillero
         }
 
         return acierto;
+    }
+
+    public object Clonar()
+    {
+        Bolillero clon = new Bolillero(_bolillasAdentro.Count + _bolillasFuera.Count, _generarAleatorio);
+
+        clon._bolillasFuera = new List<int>(_bolillasFuera);
+        clon._bolillasAdentro = new List<int>(_bolillasAdentro);
+
+        return clon;
     }
 }
