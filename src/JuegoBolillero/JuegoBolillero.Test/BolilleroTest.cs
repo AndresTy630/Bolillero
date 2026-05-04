@@ -56,4 +56,16 @@ public class BolilleroTest
 
         Assert.Equal(1, resultado);
     }
+
+    [Fact]
+    public void SimularConHilos()
+    {
+        var clon = _bolillero.Clonar() as Bolillero;
+        var bolillasIniciales = clon.BolillasAdentro.Count;
+
+        long ganadas = Simulacion.SimularConHilos(_bolillero, new List<int> { 0, 1 }, 1000, 4);
+
+        Assert.Equal(bolillasIniciales, _bolillero.BolillasAdentro.Count);
+        Assert.Empty(_bolillero.BolillasFuera);
+    }
 }
