@@ -23,6 +23,8 @@
 
 Este proyecto consiste en crear un bolillero virtual que contiene bolillas numeradas y permite sacarlas una por una para ver si salen en el orden exacto de nuestra jugada. El sistema permite "ganar" si acertamos la secuencia, repetir el juego muchas veces para contar los éxitos y volver a meter las bolillas usadas para empezar de nuevo. Además, se realizan pruebas unitarias para así asegurar que el programa funcione correctamente.
 
+En esta segunda parte, el bolillero incorpora la capacidad de clonarse (mediante la interfaz ICloneable) para generar copias exactas e independientes de si mismo. Esto permite realizar simulaciones avanzadas a través de una nueva clase que compara ejecuciones lineales frente a ejecuciones en paralelo. En el modo paralelo, cada hilo utiliza su propio clon para evitar conflictos de concurrencia y optimizar los tiempos de respuesta. Finalmente, todo este desarrollo se realiza una nueva rama llamada "TareasSinConcurrencia".
+
 ## Comenzando 🚀
 
 Clonar el repositorio github, desde Github Desktop o ejecutar en la terminal o CMD:
